@@ -14,9 +14,9 @@
 		#include <stdlib.h>
 
 		int main(void) {
-			int i,j,k=0;
+		int i,j,k=0;
 			for(i=1;i<=7;i++){
-				i<5?k++:k--;
+			   i<5?k++:k--;
 				for(j=1;j<=7;j++){
 					if(j>=9-(k+k)){
 						printf("*");
@@ -30,7 +30,7 @@
 
 
 			return EXIT_SUCCESS;
-	}
+		}
 
 
 	 *
@@ -84,11 +84,10 @@
 			i<6?k++:k--;
 				for(j=1;j<=9;j++){
 					if(j==6-k||j==4+k){
-						printf(" *");
-
+					     printf(" *");
 					}
 					else{
-						printf("  ");
+					     printf("  ");
 					}
 				}
 				printf("\n");
@@ -114,23 +113,19 @@
 		#include <stdio.h>
 		#include <stdlib.h>
 		int main(void) {
-			int i,j;
-				for(i=1;i<=5;i++){
-
-					for(j=1;j<=5;j++){
+		int i,j;
+			for(i=1;i<=5;i++){
+				for(j=1;j<=5;j++){
 					if(j<=6-i){
-						printf("%d",j);
-
-								}
-								else{
-									printf(" ");
-								}
-							}
-							printf("\n");
-						}
-
-
-			return EXIT_SUCCESS;
+					     printf("%d",j);
+					}
+					else{
+					     printf(" ");
+					}
+				  }
+				  printf("\n");
+			 }
+		return EXIT_SUCCESS;
 		}
 
 
@@ -146,22 +141,18 @@
 		#include <stdlib.h>
 		int main(void) {
 			int i,j;
-				for(i=1;i<=5;i++){
-
-					for(j=1;j<=5;j++){
+			for(i=1;i<=5;i++){
+				for(j=1;j<=5;j++){
 					if(j==6-i||i==1||i==5){
 						printf("*");
-
-								}
-								else{
-									printf(" ");
-								}
-							}
-							printf("\n");
-						}
-
-
-			return EXIT_SUCCESS;
+					}
+					else{
+						printf(" ");
+					}
+				}
+				printf("\n");
+			}
+		return EXIT_SUCCESS;
 		}
 
 	*****
@@ -248,22 +239,16 @@
 		int main(void) {
 		int i,j,k;
 			for(i=1;i<=4;i++){
-
 				for(j=1;j<=1;j++){
 					printf("*\n");
 				}
-
 				for(k=1;k<=3*i;k++){
 					printf("*");
 					if(k%3==0){
 						printf("\n");
 					}
 				}
-
-
 			}
-
-
 			return EXIT_SUCCESS;
 		}
 
@@ -290,7 +275,6 @@
 		int main(void) {
 		int i,j,k;
 			for(i=1;i<=3;i++){
-
 				for(j=1;j<=2*(i*i);j++){
 					printf("*");
 					if(j%(2*i)==0){
@@ -303,11 +287,7 @@
 				for(k=1;k<=3;k++){
 					printf("*\n");
 				}
-
-
 			}
-
-
 			return EXIT_SUCCESS;
 		}
 
@@ -379,8 +359,6 @@
 				}
 				printf("\n");
 			}
-
-
 			return EXIT_SUCCESS;
 		}
 
